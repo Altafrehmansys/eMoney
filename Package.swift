@@ -17,6 +17,9 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "eMoney", path: "./Sources/eMoneySDK.xcframework")
+        .binaryTarget(name: "eMoney", path: "./Sources/eMoneySDK.xcframework"),
+        .binaryTarget(name: "EFRSDK", path: "./Sources/EFRSDK.xcframework"),
+        .binaryTarget(name: "MDRSDK", path: "./Sources/MDRSDK.xcframework"),
+        .binaryTarget(name: "LeanSDK", path: "./Sources/LeanSDK.xcframework"),
     ]
 )
