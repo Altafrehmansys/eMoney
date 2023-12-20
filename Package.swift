@@ -26,6 +26,6 @@ let package = Package(
         .binaryTarget(name: "eMoney", path: "./Sources/eMoneySDK.xcframework"),
         .binaryTarget(name: "EFRSDK", path: "./Sources/EFRSDK.xcframework"),
         .binaryTarget(name: "LeanSDK", path: "./Sources/LeanSDK.xcframework"),
-        .binaryTarget(name: "MDRSDK", path: "./Sources/MDRSDK.xcframework")
+        .binaryTarget(name: "MDRSDK", path: "./Sources/MDRSDK.xcframework"),
     ]
 )

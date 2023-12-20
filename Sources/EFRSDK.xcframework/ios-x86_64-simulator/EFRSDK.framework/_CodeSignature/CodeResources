@@ -6,71 +6,59 @@
 	<dict>
 		<key>FLDASTORY.storyboardc/FaceCaptureViewController.nib</key>
 		<data>
-		+d8yIp5PIkn6G8Tbnk1DtcoQYrw=
+		EVvu8a5dBxsie08IAv+k2DFjXCs=
 		</data>
 		<key>FLDASTORY.storyboardc/Info.plist</key>
 		<data>
 		SiCI8ryCbIlgtVlIHwDfUz8nYxA=
 		</data>
-		<key>FLDASTORY.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<key>FLDASTORY.storyboardc/Mbt-O4-5jg-view-Nzp-Kn-UBq.nib</key>
 		<data>
-		edn/fFLNk9+dH1MXIJbNoKJHds4=
+		d+zpRMOR8FobOZJ+oG6X5CGtfeg=
 		</data>
 		<key>Headers/EFRSDK-Swift.h</key>
 		<data>
-		MqO1/urMMdp5C+xm+o/O9VBcknY=
+		XtgnoFET1FcdIt47VjvHQ0kh5yQ=
+		</data>
+		<key>Headers/EFRSDK.h</key>
+		<data>
+		6YutWeH3KglTZeK36xP36mT97Cc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4FWaTtjH29dpHOCZZc8BNKmzfA0=
+		QefxSwtX8mvWfGTJf02KqxxCYzQ=
 		</data>
 		<key>Modules/EFRSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		JZ2OXhg2X8aPcCTYT36f2LK51uM=
+		jDBrls0rZs72QTZEOveotVf7jaU=
 		</data>
-		<key>Modules/EFRSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JZ2OXhg2X8aPcCTYT36f2LK51uM=
+		q/kjpsThIPv+Mpncah2gFmikwbo=
+		</data>
+		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		A9hSlgC1E9X6FtM+P3AzgqmNtgE=
 		</data>
 		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qbDxJ8Quq4UKfAK4Nvqq4HRv61o=
+		D1B7XAbSMlW1gKxLJUHYTzQDlUc=
 		</data>
 		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r8p0mPIRhHn9cq3NL7JmAwDIZbc=
+		A9hSlgC1E9X6FtM+P3AzgqmNtgE=
 		</data>
 		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J1CkSVZr6ASGPoPozqVP9/F9BRc=
-		</data>
-		<key>Modules/EFRSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		qbDxJ8Quq4UKfAK4Nvqq4HRv61o=
-		</data>
-		<key>Modules/EFRSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		r8p0mPIRhHn9cq3NL7JmAwDIZbc=
-		</data>
-		<key>Modules/EFRSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		J1CkSVZr6ASGPoPozqVP9/F9BRc=
+		6cvLKGxsFL1X+3OM/6s7eCSZMC4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		VFvHbhtOOsn714QgmFTEnBjoWm4=
+		HPtqbPUpkit1A4iIi1cnrnD4MxU=
 		</data>
-		<key>PureLiveSDKOnDeviceResources.bundle/Info.plist</key>
+		<key>PureLiveSDKResources.bundle/Assets.car</key>
 		<data>
-		KbSpFnyWCKG4XMhLj9tFk4CpbMY=
-		</data>
-		<key>PureLiveSDKOnDeviceResources.bundle/bio.tflite.enc</key>
-		<data>
-		NoJO5Nh1JUn+JnqcCPtkQ8ugavs=
-		</data>
-		<key>PureLiveSDKOnDeviceResources.bundle/rumata_v6_4t3.tflite.enc</key>
-		<data>
-		Gf4JXuA8f82yGerBnfhLYluVSeM=
+		jPCx5aqojykhb8aC19soaXDGSJI=
 		</data>
 		<key>PureLiveSDKResources.bundle/Base.lproj/Localizable.strings</key>
 		<dict>
@@ -83,7 +71,7 @@
 		</dict>
 		<key>PureLiveSDKResources.bundle/Info.plist</key>
 		<data>
-		qxTVzugY/OeWXvBAjX9ocjTtjec=
+		blQ3kWbEKuwe8wOi5lR/J2L903o=
 		</data>
 		<key>PureLiveSDKResources.bundle/PureLiveJournalList.momd/JournalCoreData.mom</key>
 		<data>
@@ -92,6 +80,30 @@
 		<key>PureLiveSDKResources.bundle/PureLiveJournalList.momd/VersionInfo.plist</key>
 		<data>
 		gSWT0fjpiZYYjsNghlJgkr2WlUc=
+		</data>
+		<key>PureLiveSDKResources.bundle/accessories.json</key>
+		<data>
+		UJNgdUu22VM4bOp5IVUblbREJLc=
+		</data>
+		<key>PureLiveSDKResources.bundle/arrow-down.json</key>
+		<data>
+		OaS6T0Sk62IkYlnPRCgeeE1NX3w=
+		</data>
+		<key>PureLiveSDKResources.bundle/arrow-left.json</key>
+		<data>
+		hATPbzjo+Mg44vKStYWcIb713Qw=
+		</data>
+		<key>PureLiveSDKResources.bundle/arrow-right.json</key>
+		<data>
+		KdDu+wHBqcyvni13csE4hCyHd+Q=
+		</data>
+		<key>PureLiveSDKResources.bundle/arrow-up.json</key>
+		<data>
+		bsetDMWoDvxOEic8N11Eu04fHKo=
+		</data>
+		<key>PureLiveSDKResources.bundle/close-eye.json</key>
+		<data>
+		jHTL+iqHvdVi3lEfDCKvhPbNYaM=
 		</data>
 		<key>PureLiveSDKResources.bundle/en.lproj/Localizable.strings</key>
 		<dict>
@@ -102,6 +114,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>PureLiveSDKResources.bundle/fade-down.json</key>
+		<data>
+		zTePCC949M2KHypubEjrEqrl9HE=
+		</data>
+		<key>PureLiveSDKResources.bundle/fade-left.json</key>
+		<data>
+		Rb/OjeExpnPC2i2/qNdTu7T15a4=
+		</data>
+		<key>PureLiveSDKResources.bundle/fade-right.json</key>
+		<data>
+		eTpiYxOBeqvVytpDviZcCA7drzw=
+		</data>
+		<key>PureLiveSDKResources.bundle/fade-up.json</key>
+		<data>
+		zrHTM9w4xKjVLkJtReeRFcHWK6g=
+		</data>
+		<key>PureLiveSDKResources.bundle/from-smile.json</key>
+		<data>
+		U/gPYK7hnMUWbnmhhSoK+lPzNm8=
+		</data>
 		<key>PureLiveSDKResources.bundle/hy.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -120,6 +152,22 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>PureLiveSDKResources.bundle/light-off.json</key>
+		<data>
+		UuT0GUV6vUdCoE+0HFpoQszqF7Q=
+		</data>
+		<key>PureLiveSDKResources.bundle/light-on.json</key>
+		<data>
+		q54PEVGEo6mvtRt+NAWGM+rMxug=
+		</data>
+		<key>PureLiveSDKResources.bundle/open-eye-wide.json</key>
+		<data>
+		/vBv7n7rxr4vgSsDNdYB49lb/cg=
+		</data>
+		<key>PureLiveSDKResources.bundle/open-eye.json</key>
+		<data>
+		a6zP/t66RgtLX++dN8Y9j5lqqgU=
+		</data>
 		<key>PureLiveSDKResources.bundle/podium_lite_0008_model.tflite.enc</key>
 		<data>
 		0NACiYuvC+BSddxWUfu+nSjHAVQ=
@@ -128,11 +176,23 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tHa+C5oP4hzavXInvbgpaeq6MIY=
+			tf16UOMXp0U+eQGp4WNMvwxXCNo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>PureLiveSDKResources.bundle/to-smile.json</key>
+		<data>
+		lOPsBw4igZcuoVJ741AKwjwGJpY=
+		</data>
+		<key>PureLiveSDKResources.bundle/zoom-in.json</key>
+		<data>
+		70nR2l1QorCGtn7zjSam3Y1XOQI=
+		</data>
+		<key>PureLiveSDKResources.bundle/zoom-out.json</key>
+		<data>
+		agmD2hht3bazOZRYzHXnD0rRtIM=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -140,7 +200,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMj+qmPArInbASw9iM2ac7bO0jl0h3eZQqFyUpvLJeM=
+			T7PsOEuHUsBj2LRWZOFDkIG4YOyE/g0H4aC0SkuISbE=
 			</data>
 		</dict>
 		<key>FLDASTORY.storyboardc/Info.plist</key>
@@ -150,102 +210,81 @@
 			L++Zyqq2pmQCg4AmUt3/YRBxsNUNzedc1u3eKxCbIzU=
 			</data>
 		</dict>
-		<key>FLDASTORY.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<key>FLDASTORY.storyboardc/Mbt-O4-5jg-view-Nzp-Kn-UBq.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DDCKOc+AUb2U94XiRLCJyXvEq3gb6if6M100Q4lx97c=
+			YUHGmN+dLC4KfoRpfHKCE01+spYzNw/PrwsE3gopSzg=
 			</data>
 		</dict>
 		<key>Headers/EFRSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ge+zq6uy8c6CZ1f61eKpQr6FN5N1o1/Rrol+f4GSRZg=
+			dqiiFY0EmdIju/iSmYBNfz1UONfzpE3n/63CeQhop50=
+			</data>
+		</dict>
+		<key>Headers/EFRSDK.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QYgMdZh3S4T/bEYBPQphUoqdb8nJPM8pcJW+K131CEQ=
 			</data>
 		</dict>
 		<key>Modules/EFRSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqAPB1Rbo3URg9WedV1Wd5S+9T/wI8FxxyBcbH+BBk4=
+			TQOKtQN8zvpIRt8WJH3WetYTmW2gwu4nrMlpI1sVbOk=
 			</data>
 		</dict>
-		<key>Modules/EFRSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqAPB1Rbo3URg9WedV1Wd5S+9T/wI8FxxyBcbH+BBk4=
+			++KHmv0/5yffD2HSaYw6LhBBt8mIimDkdTraDEzYeLI=
+			</data>
+		</dict>
+		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vfjVWe89IBpEpst+R3O/eNkgKt9I8NNFVOGGssFaYAI=
 			</data>
 		</dict>
 		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Y3k76mm2ZoOuahn6p18gQ/KHHX3T1JDlSU/pIZsmX8=
+			QOEKOJ+/2rv/7V9EO10xpcRcQrsdPBva4i5UyqnwSWY=
 			</data>
 		</dict>
 		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pr1txT9mPoqRZRUeZlT0VF38FOa+gMyIn4OGfWxsUtw=
+			vfjVWe89IBpEpst+R3O/eNkgKt9I8NNFVOGGssFaYAI=
 			</data>
 		</dict>
 		<key>Modules/EFRSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sVuuWUdi4kFAZUYF8MY3V/UBbwLU3fkRjxix/JHAUiM=
-			</data>
-		</dict>
-		<key>Modules/EFRSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5Y3k76mm2ZoOuahn6p18gQ/KHHX3T1JDlSU/pIZsmX8=
-			</data>
-		</dict>
-		<key>Modules/EFRSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Pr1txT9mPoqRZRUeZlT0VF38FOa+gMyIn4OGfWxsUtw=
-			</data>
-		</dict>
-		<key>Modules/EFRSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sVuuWUdi4kFAZUYF8MY3V/UBbwLU3fkRjxix/JHAUiM=
+			k7TUdWQ+NZ2C/MccxmzYJbhtRAbVP1vQrTS5fkK8gBY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZZXQ06ZeiitZTF78OpxEFZAAp4cyRg5D7Ff6i7h1vzw=
+			dEWEbB3E+HXFKwXP16pnfsTyHUgqohNmoYcccWtPyLQ=
 			</data>
 		</dict>
-		<key>PureLiveSDKOnDeviceResources.bundle/Info.plist</key>
+		<key>PureLiveSDKResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5mia6oVPIJyEw/6TlSkZ9II+py2Vj1/GomVnxURW3+U=
-			</data>
-		</dict>
-		<key>PureLiveSDKOnDeviceResources.bundle/bio.tflite.enc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O+YXQvl3BzrL3uXpLzZL5i82W1dLcwqwgJOHPfpxids=
-			</data>
-		</dict>
-		<key>PureLiveSDKOnDeviceResources.bundle/rumata_v6_4t3.tflite.enc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ah/KDE3jxPqdoy9PBRclm66umC6F48bneL5tfT+HZwc=
+			bDtJA58tuG7uClPxCyQErvuQgkkBnrely/TNONHPxto=
 			</data>
 		</dict>
 		<key>PureLiveSDKResources.bundle/Base.lproj/Localizable.strings</key>
@@ -261,7 +300,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4hhAkUi64I230gxoUosJukov6WXPsPrTa8zEQIHRn0=
+			kv946dB5gQt1KhlDCaLOq11nVkyfmjw/zrHk9w12P4Q=
 			</data>
 		</dict>
 		<key>PureLiveSDKResources.bundle/PureLiveJournalList.momd/JournalCoreData.mom</key>
@@ -278,6 +317,48 @@
 			xeuYbYAebp1K6XQwkrly21cySfu+/VbCMFsiRaMIRQ4=
 			</data>
 		</dict>
+		<key>PureLiveSDKResources.bundle/accessories.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v5ipDfGb3Ql8rQycglz0umAsETW88G1RtL0lvxn9bzw=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/arrow-down.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x9URdyTFIcIZ1Zb+2lsCtF3iPNUIyVtr3rgFxwIxEY4=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/arrow-left.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BRQKFFDJiJtAVfvgDQY3hLAGNbZy9kXy93RiW8NjaZs=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/arrow-right.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hYW9CBA5uwwq50Bfw5ZnZdly30yQOibIFe28x2rJZ8U=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/arrow-up.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sacUR8CIt+YM5G17RKCQaAJJAZsd0prJ8MWF6XSXrIw=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/close-eye.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			loNcFm5eKDEInOw47pMXW56ujb+Ikdq8E3DKBD1W9n4=
+			</data>
+		</dict>
 		<key>PureLiveSDKResources.bundle/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
@@ -286,6 +367,41 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>PureLiveSDKResources.bundle/fade-down.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			weagpbWWRa8KimCUBGd3KkWsVeAJiG8hulM158FTfG0=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/fade-left.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g43JJvWhWXRp/r0m4bp0ciezZ9ZfxevBEROf74pRTzs=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/fade-right.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4jY+wKojwCfI6NSyrGnpWboXKfVSmMhiFg/7G695DvI=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/fade-up.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qs2yvGa7gIzT8kmjLV8fkWVA0apW9u8sXoEcT8ubC/s=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/from-smile.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0UbH01KfF/m1ZigIp4qBSkW2mWxWPNUi7P6+RDEU7cE=
+			</data>
 		</dict>
 		<key>PureLiveSDKResources.bundle/hy.lproj/Localizable.strings</key>
 		<dict>
@@ -305,6 +421,34 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>PureLiveSDKResources.bundle/light-off.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kNlydRVtL0ORO22cR1N/giGdNczZASc2EFRr6yCUjhY=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/light-on.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wwWMDKzpWGqbdKI659u2LPnmihXR7VPwKY5VnL9ioxw=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/open-eye-wide.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XOgn36B/sXOsZNlkX5CpY1STIFjBROTmBufIPte2H7A=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/open-eye.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jz5WYmFZo2dPINgDFsT1EQ1aGbdqaYyOtGbpNybvHMI=
+			</data>
+		</dict>
 		<key>PureLiveSDKResources.bundle/podium_lite_0008_model.tflite.enc</key>
 		<dict>
 			<key>hash2</key>
@@ -316,10 +460,31 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VTmA1OCnRW/gw0BvB4cW8JPmvXSksiPOUgUUJn7DtcU=
+			+RaVeDpi5VEaTitIprH7nTcwGKV+eaGyj6wusMkl6ZM=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>PureLiveSDKResources.bundle/to-smile.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IK1ubfs9UFbVft+0QxZZNsJCIeBB9VOoIyJrbPsp3Pc=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/zoom-in.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xp6t/xouCLN3h1WE5tBNtcZ6cCdFg5S+ZfXlaGwP/Xo=
+			</data>
+		</dict>
+		<key>PureLiveSDKResources.bundle/zoom-out.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2dceOscPXeAESvIR1xwCBaemwlnHWh3iwzNM3uPggk0=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

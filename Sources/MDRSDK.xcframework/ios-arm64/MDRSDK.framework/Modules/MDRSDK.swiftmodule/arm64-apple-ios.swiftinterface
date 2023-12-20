@@ -1,13 +1,11 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MDRSDK
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MDRSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Accelerate
 import AudioToolbox
-import Combine
 import CommonCrypto
-import CoreGraphics
 import CoreImage
 import Darwin
 import Dispatch
@@ -17,19 +15,19 @@ import MetalKit
 import MetalPerformanceShaders
 import Security
 import Swift
-import SwiftyTesseract
 import TensorFlowLiteC
 import UIKit
 import Vision
 import _Concurrency
 import _StringProcessing
-import libtesseract
 import os.log
 import os
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class EFRScannerViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -156,9 +154,6 @@ public struct MDRVersion {
     get
   }
 }
-public protocol LanguageModelDataSource {
-  var pathToTrainedData: Swift.String { get }
-}
 final public class Interpreter {
   final public let options: MDRSDK.Interpreter.Options?
   final public let delegates: [MDRSDK.Delegate]?
@@ -192,115 +187,6 @@ extension MDRSDK.Interpreter {
 }
 @available(*, deprecated, renamed: "Interpreter.Options")
 public typealias InterpreterOptions = MDRSDK.Interpreter.Options
-public enum RecognitionLanguage {
-  case afrikaans
-  case albanian
-  case amharic
-  case arabic
-  case assamese
-  case azerbaijani
-  case azerbaijaniCyrillic
-  case basque
-  case belarusian
-  case bengali
-  case bosnian
-  case bulgarian
-  case burmese
-  case catalanAndValencian
-  case cebuano
-  case centralKhmer
-  case chineseSimplified
-  case chineseTraditional
-  case croatian
-  case czech
-  case cherokee
-  case danish
-  case dutchFlemish
-  case dzongkha
-  case english
-  case englishMiddle
-  case esperanto
-  case estonian
-  case finnish
-  case frankish
-  case french
-  case frenchMiddle
-  case galician
-  case georgian
-  case georgianOld
-  case german
-  case greekAncient
-  case greekModern
-  case guajarati
-  case haitian
-  case hebrew
-  case hindi
-  case hungarian
-  case icelandic
-  case inuktitut
-  case indonesian
-  case italian
-  case italianOld
-  case irish
-  case javanese
-  case japanese
-  case kannada
-  case kazakh
-  case korean
-  case kurdish
-  case kyrgyz
-  case lao
-  case latin
-  case lithuanian
-  case malayalam
-  case macedonian
-  case malay
-  case maltese
-  case marathi
-  case nepali
-  case norwegian
-  case oriya
-  case pashto
-  case persian
-  case polish
-  case portugese
-  case punjabi
-  case romanian
-  case russian
-  case sanskrit
-  case serbian
-  case serbianLatin
-  case sinhala
-  case slovak
-  case slovenian
-  case spanish
-  case spanishOld
-  case swahili
-  case swedish
-  case syriac
-  case tamil
-  case tagalog
-  case tajik
-  case telugu
-  case thai
-  case tibetan
-  case tigrinya
-  case turkish
-  case uighur
-  case ukrainian
-  case urdu
-  case uzbek
-  case uzbekCyrillic
-  case vietnamese
-  case welsh
-  case yiddish
-  case custom(Swift.String)
-}
-extension MDRSDK.RecognitionLanguage : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class MDROutput {
   public var imageFront: Swift.String?
   public var imageBack: Swift.String?
@@ -317,22 +203,6 @@ extension MDRSDK.RecognitionLanguage : Swift.CustomStringConvertible {
     get
   }
 }
-extension MDRSDK.SwiftyTesseract {
-  public enum Error : Swift.Error {
-    case imageConversionError
-    case unableToExtractTextFromImage
-    case unableToCreateRenderer
-    case unableToBeginDocument
-    case unableToProcessPage
-    case unableToEndDocument
-    case unableToRetrieveIterator
-    public static func == (a: MDRSDK.SwiftyTesseract.Error, b: MDRSDK.SwiftyTesseract.Error) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-}
 @objc public class MDRLicenseConfig : ObjectiveC.NSObject {
   public var data: Swift.String?
   public init(data: Swift.String?)
@@ -347,80 +217,14 @@ public struct QuantizationParameters : Swift.Equatable, Swift.Hashable {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class SwiftyTesseract {
-  public var whiteList: Swift.String? {
-    get
-    set
-  }
-  public var blackList: Swift.String? {
-    get
-    set
-  }
-  public var preserveInterwordSpaces: Swift.Bool? {
-    get
-    set
-  }
-  public var minimumCharacterHeight: Swift.Int? {
-    get
-    set
-  }
-  public var version: Swift.String? {
-    get
-  }
-  convenience public init(languages: [MDRSDK.RecognitionLanguage], dataSource: MDRSDK.LanguageModelDataSource = Bundle.main, engineMode: MDRSDK.EngineMode = .lstmOnly)
-  convenience public init(language: MDRSDK.RecognitionLanguage, dataSource: MDRSDK.LanguageModelDataSource = Bundle.main, engineMode: MDRSDK.EngineMode = .lstmOnly)
-  @available(*, deprecated, message: "migrate to init(language:dataSource:engineMode:)")
-  convenience public init(language: MDRSDK.RecognitionLanguage, bundle: Foundation.Bundle = .main, engineMode: MDRSDK.EngineMode = .lstmOnly)
-  @available(*, deprecated, message: "migrate to init(languages:dataSource:engineMode:)")
-  convenience public init(languages: [MDRSDK.RecognitionLanguage], bundle: Foundation.Bundle = .main, engineMode: MDRSDK.EngineMode = .lstmOnly)
-  @objc deinit
-}
-extension MDRSDK.SwiftyTesseract {
-  @available(*, deprecated, message: "use performOCR(on:) or performOCRPublisher(on:)")
-  public func performOCR(on image: UIKit.UIImage, completionHandler: (Swift.String?) -> ())
-  public func performOCR(on image: UIKit.UIImage) -> Swift.Result<Swift.String, Swift.Error>
-  @available(iOS 13.0, *)
-  public func performOCRPublisher(on image: UIKit.UIImage) -> Combine.AnyPublisher<Swift.String, Swift.Error>
-}
-extension MDRSDK.SwiftyTesseract {
-  public func createPDF(from images: [UIKit.UIImage]) throws -> Foundation.Data
-}
-extension MDRSDK.SwiftyTesseract {
-  public func recognizedBlocks(for level: MDRSDK.ResultIteratorLevel) -> Swift.Result<[MDRSDK.RecognizedBlock], Swift.Error>
-}
 public enum Runtime {
   public static var version: Swift.String {
     get
   }
 }
-public struct RecognizedBlock {
-  public var text: Swift.String
-  public var boundingBox: CoreFoundation.CGRect
-  public var confidence: Swift.Float
-}
 public protocol Delegate : AnyObject {
   typealias CDelegate = Swift.UnsafeMutablePointer<TensorFlowLiteC.TfLiteDelegate>
   var cDelegate: Self.CDelegate { get }
-}
-public enum ResultIteratorLevel : libtesseract.TessPageIteratorLevel.RawValue {
-  case block
-  case paragraph
-  case textline
-  case word
-  case symbol
-  public var tesseractLevel: libtesseract.TessPageIteratorLevel {
-    get
-  }
-  public init?(rawValue: libtesseract.TessPageIteratorLevel.RawValue)
-  public typealias RawValue = libtesseract.TessPageIteratorLevel.RawValue
-  public var rawValue: libtesseract.TessPageIteratorLevel.RawValue {
-    get
-  }
-}
-extension Foundation.Bundle : MDRSDK.LanguageModelDataSource {
-  public var pathToTrainedData: Swift.String {
-    get
-  }
 }
 public struct MDRMRZResult {
   public let mrzLines: Swift.String
@@ -472,16 +276,19 @@ public protocol DocumentReaderDeligate {
 }
 extension MDRSDK.DocumentReaderSDK {
   public class func initializeDocumentReader(configurationSettings: MDRSDK.MDRLicenseConfig?, callBack: @escaping MDRSDK.MDRInitializationCallBack)
-  open class func showDocumentReader(on view: UIKit.UIView, documentType: MDRSDK.DocumentType, forceMRZ: Swift.Bool, readMRZPageOnly: Swift.Bool, hintImages: [UIKit.UIImage?]? = [], callBack: @escaping MDRSDK.MDRScanResultCallBack)
-  open class func go()
-  open class func getScannerOverlayView() -> UIKit.UIView?
-  open class func setTimeout(timeoutInSec: Swift.Double)
-  open class func setStrokeWidth(_ width: Swift.Double)
-  open class func setLanguage(_ code: Swift.String, tableName: Swift.String? = nil)
-  open class func closeDocumentReader()
-  open class func getDocumentReaderIsReady() -> Swift.Bool
-  open class func getDocumentReaderExpiryDate() -> Foundation.Date?
-  open class func setSDKEnableLogs(_ isEnable: Swift.Bool = true)
+  public class func showDocumentReader(on view: UIKit.UIView, documentType: MDRSDK.DocumentType, forceMRZ: Swift.Bool, readMRZPageOnly: Swift.Bool, hintImages: [UIKit.UIImage?]? = [], callBack: @escaping MDRSDK.MDRScanResultCallBack)
+  public class func go()
+  public class func getScannerOverlayView() -> UIKit.UIView?
+  public class func setTimeout(timeoutInSec: Swift.Double)
+  public class func setStrokeWidth(_ width: Swift.Double)
+  public class func setLanguage(_ code: Swift.String, tableName: Swift.String? = nil)
+  public class func setOverlayColor(color: UIKit.UIColor, opacity: Swift.Double = 0.5)
+  public class func captureDocument()
+  public class func setHintAnimationDuration(showingDuration: Swift.Double, hidingDuration: Swift.Double)
+  public class func closeDocumentReader()
+  public class func getDocumentReaderIsReady() -> Swift.Bool
+  public class func getDocumentReaderExpiryDate() -> Foundation.Date?
+  public class func setSDKEnableLogs(_ isEnable: Swift.Bool = true)
 }
 extension MDRSDK.DocumentReaderSDK {
   open class func getShareLogFile() -> [Foundation.URL]
@@ -526,30 +333,12 @@ public enum DocumentReaderFeedbackMessage : Swift.Int {
     get
   }
 }
-public enum EngineMode : libtesseract.TessOcrEngineMode.RawValue {
-  case tesseractOnly
-  case lstmOnly
-  case tesseractLstmCombined
-  public init?(rawValue: libtesseract.TessOcrEngineMode.RawValue)
-  public typealias RawValue = libtesseract.TessOcrEngineMode.RawValue
-  public var rawValue: libtesseract.TessOcrEngineMode.RawValue {
-    get
-  }
-}
 extension MDRSDK.DocumentType : Swift.Equatable {}
 extension MDRSDK.DocumentType : Swift.Hashable {}
 extension MDRSDK.DocumentType : Swift.RawRepresentable {}
-extension MDRSDK.SwiftyTesseract.Error : Swift.Equatable {}
-extension MDRSDK.SwiftyTesseract.Error : Swift.Hashable {}
-extension MDRSDK.ResultIteratorLevel : Swift.Equatable {}
-extension MDRSDK.ResultIteratorLevel : Swift.Hashable {}
-extension MDRSDK.ResultIteratorLevel : Swift.RawRepresentable {}
 extension MDRSDK.DocumentReaderFeedbackStatus : Swift.Equatable {}
 extension MDRSDK.DocumentReaderFeedbackStatus : Swift.Hashable {}
 extension MDRSDK.DocumentReaderFeedbackStatus : Swift.RawRepresentable {}
 extension MDRSDK.DocumentReaderFeedbackMessage : Swift.Equatable {}
 extension MDRSDK.DocumentReaderFeedbackMessage : Swift.Hashable {}
 extension MDRSDK.DocumentReaderFeedbackMessage : Swift.RawRepresentable {}
-extension MDRSDK.EngineMode : Swift.Equatable {}
-extension MDRSDK.EngineMode : Swift.Hashable {}
-extension MDRSDK.EngineMode : Swift.RawRepresentable {}

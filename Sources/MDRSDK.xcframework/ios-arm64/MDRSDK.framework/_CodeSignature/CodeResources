@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		0HzZRY705jBR3Kuf5olarwtH29s=
+		v2HJHahPuG8OuBX/99jo66iklkY=
 		</data>
 		<key>Headers/DocumentReaderSDK.h</key>
 		<data>
@@ -14,57 +14,57 @@
 		</data>
 		<key>Headers/MDRSDK-Swift.h</key>
 		<data>
-		4yFSY96/v4Dfg2vYRzXMIxfDxjs=
+		rF+ZIo3PoI22FKbWDN1L8L0mQzc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LI/e+MS4niLUNZUZfaBSE+6LBmM=
-		</data>
-		<key>LICENSE.md</key>
-		<data>
-		RaTbw0d+ITBDI2oUJiQ7G/2uHr0=
+		AJIrCvGB1r7y7xU3ctnSSv4sbFE=
 		</data>
 		<key>Modules/MDRSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		J6sxIZlpuZIdWOEpB/j/pIEeQ6g=
+		3E8lFHsQwGPSz+V4MsbMcthzc2o=
 		</data>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8+ZVXZpa8jWAOZxPuYc3XFo8b7U=
+		q5KFe10rFbaRCd0Nb3THFAbaKrw=
 		</data>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		kVUoG793Ths98J2sVSwr+iBFJK0=
+		VZw3Qr1V83aZAMBgON6ogSFLw+E=
 		</data>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		09mQWD51Dj8+a9LGgcxiFRs6W18=
+		mLc4wdxc98bamPEWRkaM8vhsdfs=
 		</data>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		kVUoG793Ths98J2sVSwr+iBFJK0=
+		VZw3Qr1V83aZAMBgON6ogSFLw+E=
 		</data>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qENMJzHKEw1uTYcuIkOpDSwwpys=
+		F7oj2z6MTZ6N1hzeCiekI3lR42M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Mw9BgId/F6C7+iOM4wv6jUne4aA=
 		</data>
-		<key>README.md</key>
-		<data>
-		iZ6rqFcWV5MPTcxGUbCr97ApMIU=
-		</data>
 		<key>Release Note.rtf</key>
 		<data>
-		ufQSlzm48czqWIzJEA7ymIJugCA=
+		Ae2E2pK6ktG7M78QH47A1xdPJ4o=
 		</data>
-		<key>SDK.storyboardc/9hg-iz-zds-view-fxF-oD-U5X.nib</key>
+		<key>SDK.storyboardc/9hg-iz-zds-view-fxF-oD-U5X.nib/objects-13.0+.nib</key>
 		<data>
-		dxojlzhQVjT/ZGlypn81/XpOgos=
+		2muv31IWq/Lb4tlGhbAnDSLSVLI=
 		</data>
-		<key>SDK.storyboardc/EFRScannerViewController.nib</key>
+		<key>SDK.storyboardc/9hg-iz-zds-view-fxF-oD-U5X.nib/runtime.nib</key>
+		<data>
+		1SgpeavXIOWoAaeuIPBRO+CczrI=
+		</data>
+		<key>SDK.storyboardc/EFRScannerViewController.nib/objects-13.0+.nib</key>
+		<data>
+		VPYDdtHJyeqy6n8cvn5lnYqsens=
+		</data>
+		<key>SDK.storyboardc/EFRScannerViewController.nib/runtime.nib</key>
 		<data>
 		VPYDdtHJyeqy6n8cvn5lnYqsens=
 		</data>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BpAS0ixHu2m5GpSe7eKu/DPWOAI=
+			KpOMcsTOmef35FX9QKm2ZCCKQrM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uFQ/kXba6mEJCf+eX6g7A+GYpag=
+			fyWPCPwUFw2Oci6KKvfR8S5YDcw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			chtn5DLubBFdUlg+hF8pHDr9xeLeQBTTxYyhLspUAKc=
+			sWeFhfSPZp7xAWxT/THxZXdCOrF3i86Qi2ZCI7U3134=
 			</data>
 		</dict>
 		<key>Headers/DocumentReaderSDK.h</key>
@@ -127,56 +127,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o7VeNQ3F30FRh4KMHpQAClbtrAceJ/ZJ3KuUxNtyEXw=
-			</data>
-		</dict>
-		<key>LICENSE.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4PI8WMc95Tk5OPfVreol07Pdl5vE0hJzyWR2bW5U/Ws=
+			+mPVQM+52IvGrxM0xpbJZRTtnFYnFyvhlkvDhm+A2S0=
 			</data>
 		</dict>
 		<key>Modules/MDRSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RgoVNsnolfJOSvAc5W++GP7OIeCO3iapusWTO24FXQQ=
+			ERmGj3ANMwnYtu2YiWGuIVDYMRjsr9QdwAOBJAkbB74=
 			</data>
 		</dict>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DF31iiPwRbov6tvWhGHvrrF+9WBOBMEZyLYF0NqlnTg=
+			9SgRZ0QgHnLlbuuvbOPjLTTpZwIUscnEYnlc/+/5GYI=
 			</data>
 		</dict>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TSsFte3w2JelwD3tVVGpFD2YDgnDrgfLcRmK9SUDxmY=
+			vqa6ltKTwFbKXva/yQLzM+f6QHZEgVqjmJsSVj5an1s=
 			</data>
 		</dict>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ui1p9hrnnxwIyE8mZGrEZ4s5wk24BxwANFQ7Ht+KZao=
+			N93E1Me9qA/f+Gg9mn9AOwmKO4wA2xpkpXCBPf/sUf8=
 			</data>
 		</dict>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TSsFte3w2JelwD3tVVGpFD2YDgnDrgfLcRmK9SUDxmY=
+			vqa6ltKTwFbKXva/yQLzM+f6QHZEgVqjmJsSVj5an1s=
 			</data>
 		</dict>
 		<key>Modules/MDRSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EWM19JqrDqlsSidqiKLYoYDN9C7YtRexUiYWnKdlEys=
+			pgIzb9v/CUwwzwpJgjnE/KxZmEmU+vFsavWiRADyGMU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -186,28 +179,35 @@
 			6uUpD6HCZ/QPCznjmk2FX8krPzGCJ8lKaJCRQ8YY0pI=
 			</data>
 		</dict>
-		<key>README.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b8H7SCNvNDsUmFIvCYV9YLGO6UOQ7i02ezQHW68/tDw=
-			</data>
-		</dict>
 		<key>Release Note.rtf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LSFRDJkxGhGT1n26H+d43ReWCBAWtbjRSTc7VHojtJQ=
+			WIYUcgFbwjUyuD0HrYQpgILa57EhSf7AWuwMZT/cdnA=
 			</data>
 		</dict>
-		<key>SDK.storyboardc/9hg-iz-zds-view-fxF-oD-U5X.nib</key>
+		<key>SDK.storyboardc/9hg-iz-zds-view-fxF-oD-U5X.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Riwew2BaeBdqJGssOp9qVw6hJZBl+RtqPsSilyzHEBs=
+			sk/8z4lHOA7XDz8jiVzC3V2+TssokzGnfSmb6Trp4zE=
 			</data>
 		</dict>
-		<key>SDK.storyboardc/EFRScannerViewController.nib</key>
+		<key>SDK.storyboardc/9hg-iz-zds-view-fxF-oD-U5X.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			leoILtBKTFfWRZgE80dqpTs8AvX9ru+ID3qZwnrE5E8=
+			</data>
+		</dict>
+		<key>SDK.storyboardc/EFRScannerViewController.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2weNKkJ9W/1PdIhlyZGuUomBqw6Pnifs1fstCZhErRE=
+			</data>
+		</dict>
+		<key>SDK.storyboardc/EFRScannerViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -225,7 +225,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lLsIhNuZ0aeRI3jjs3QqHQFZn1rJi0mSzDTVdNuSgiU=
+			YkbRsXrMhs+1xPMz9M1xP97w6c/PHqU1EqlBtMzodAQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -234,7 +234,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DrlrrBHM/9EaCDNUulLkFue9Za6SCsWjq2mYksujS/s=
+			0Um+VgDBGxORz/HEVcZw9uNpSrDNMXuthv26mpgqBiQ=
 			</data>
 			<key>optional</key>
 			<true/>
