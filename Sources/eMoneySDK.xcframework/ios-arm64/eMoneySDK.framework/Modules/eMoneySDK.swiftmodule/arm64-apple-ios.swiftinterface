@@ -1255,6 +1255,31 @@ public class AdvancedPageControlDrawerParent {
   public init(numberOfPages: Swift.Int? = 5, height: CoreFoundation.CGFloat? = 16, width: CoreFoundation.CGFloat? = 16, space: CoreFoundation.CGFloat? = 16, raduis: CoreFoundation.CGFloat? = 16, currentItem: CoreFoundation.CGFloat? = 0, dotsColor: UIKit.UIColor? = UIColor.lightGray, isBordered: Swift.Bool = false, borderColor: UIKit.UIColor = .lightGray, borderWidth: CoreFoundation.CGFloat = 1)
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class RegisterResponse {
+  public var responseStatus: Swift.String?
+  public var profile: Swift.String?
+  public var eandAccountId: Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class RegisterModel {
+  final public let result: Swift.String?, userToken: Swift.String?, fullName: Swift.String?, accessToken: Swift.String?
+  final public let isDigitalKyc: Swift.Bool?
+  public var profileName: Swift.String?
+  final public let isSingleAccount: Swift.Bool?, isEIDSuspended: Swift.Bool?
+  final public let isFirstLogin: Swift.Bool?
+  final public let loyaltyPointsAccountsFri: Swift.String?, fri: Swift.String?
+  final public let oldDeviceId: Swift.String?
+  public var pin: Swift.String
+  public var retriesLeft: Swift.Int?
+  public var remainingDays: Swift.Int?
+  public var noOfDaysPendingForPhysicalVer: Swift.Int?
+  public var upgradeScreen: Swift.String?
+  public var upgradeToProfile: Swift.String?
+  public var flowName: Swift.String?
+  public var survey: Swift.String?
+  public var errors: [Swift.String]?
+  @objc deinit
+}
 @available(*, renamed: "Digest")
 public typealias Hash = eMoneySDK.Digest
 public struct Digest {
@@ -1346,7 +1371,7 @@ extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func addGradient(colors: [UIKit.UIColor], locations: [Foundation.NSNumber]?, startPoint: CoreFoundation.CGPoint, endPoint: CoreFoundation.CGPoint, cornerRadius: CoreFoundation.CGFloat = 16)
 }
 @_hasMissingDesignatedInitializers public class LoginModel {
-  final public let result: Swift.String?, userToken: Swift.String?, fullName: Swift.String?
+  final public let result: Swift.String?, userToken: Swift.String?, fullName: Swift.String?, accessToken: Swift.String?
   final public let isDigitalKyc: Swift.Bool?
   public var profileName: Swift.String?
   final public let isSingleAccount: Swift.Bool?, isEIDSuspended: Swift.Bool?
@@ -1648,7 +1673,7 @@ extension eMoneySDK.HMAC {
 }
 public class EWalletSDK {
   public init(configuration: eMoneySDK.EWalletConfiguration)
-  public func startWithOnboarding(in controller: UIKit.UIViewController, msisdn: Swift.String, onSuccess: ((Swift.String) -> ())?, onFailure: ((Swift.String, Swift.String) -> ())?)
+  public func startWithOnboarding(in controller: UIKit.UIViewController, msisdn: Swift.String, onSuccess: ((eMoneySDK.RegisterResponse?) -> ())?, onFailure: ((Swift.String, Swift.String) -> ())?)
   public func startWithAddMoney(in controller: UIKit.UIViewController, msisdn: Swift.String, onSuccess: ((Swift.String) -> ())?, onFailure: ((Swift.String, Swift.String) -> ())?)
   public func startForgetPin(in controller: UIKit.UIViewController, msisdn: Swift.String, onSuccess: ((Swift.String) -> ())?, onFailure: ((Swift.String, Swift.String) -> ())?)
   public func startChangePin(in controller: UIKit.UIViewController, msisdn: Swift.String, onSuccess: ((Swift.String) -> ())?, onFailure: ((Swift.String, Swift.String) -> ())?)
