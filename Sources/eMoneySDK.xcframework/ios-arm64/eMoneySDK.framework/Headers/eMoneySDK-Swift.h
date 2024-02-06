@@ -1861,6 +1861,7 @@ SWIFT_CLASS("_TtC9eMoneySDK13PrimaryButton")
 
 SWIFT_CLASS("_TtC9eMoneySDK34RegisterMobileNumberViewController")
 @interface RegisterMobileNumberViewController : BaseViewController
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
