@@ -147,6 +147,7 @@
             "method": "Method",
             "amount_added": "Amount added",
             "new_wallet_balance": "New wallet balance",
+            "card_number": "Card Number",
             "earn_points": "You have earned 100 e& points for this transfer",
             "tracking_link": "A tracking link has been sent to recipient via SMS & WhatsApp.",
             "inprogress": "In progress",
