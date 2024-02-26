@@ -38,7 +38,7 @@
             "otp_invalid": "Invalid OTP! Please enter a valid OTP to continue",
             "enter_email": "Enter email address",
             "we_will_send_link": "We will send you a verification link. The link will be valid for 7 days.",
-            "not_now": "Not now, later",
+            "not_now": "Cancel",
             "create_pin": "Create a PIN to secure your account.",
             "do_not_use_repeating_characters": "Do not use repeating numbers (eg. 1111)",
             "re_enter_pin": "Re-enter PIN",
