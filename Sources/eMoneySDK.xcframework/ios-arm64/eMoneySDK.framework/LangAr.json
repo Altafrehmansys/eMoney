@@ -141,6 +141,7 @@
             "add_debit_card": "إضافة بطاقة الخصم",
             "add_another_source_account_card": "إضافة بطاقة خصم أخرى صادرة في دولة الإمارات العربية المتحدة",
             "verify": "تحقق",
+            "forgetpin": "ننسى دبوس",
             "payment_gateway_desc": "آمن 100٪. اتصل بالمصرف الذي تتعامل معه باستخدام UAE Payment Gateway لتحويل المال على الفور",
             "add": "أضف",
             "card_number": "رقم البطاقة",
