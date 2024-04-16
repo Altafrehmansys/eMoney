@@ -138721,7 +138721,7 @@
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/Utilities\/HelperClasses\/Alerts\/AlertMessages.swift",
       "kind": "IntegerLiteral",
-      "offset": 2332,
+      "offset": 2328,
       "length": 1,
       "value": "0"
     },
@@ -140177,7 +140177,7 @@
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/SDKModules\/SDKOnboardingModule\/Onboarding\/RegisterPin\/View\/RegisterPinViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1409,
+      "offset": 1481,
       "length": 4,
       "value": "true"
     },
@@ -141059,7 +141059,7 @@
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/SDKModules\/SDKAddMoneyModule\/PinSDKCustomViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 508,
+      "offset": 642,
       "length": 4,
       "value": "true"
     },
@@ -141661,7 +141661,7 @@
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/Core\/BaseComponents\/StandardTextField\/StandardTextField.swift",
       "kind": "BooleanLiteral",
-      "offset": 29118,
+      "offset": 29217,
       "length": 5,
       "value": "false"
     },
@@ -146253,7 +146253,7 @@
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/SDKModules\/SDKModuleChangePin\/Change PIN\/ReEnterYourPIN\/View\/ReEnterYourPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 513,
+      "offset": 585,
       "length": 4,
       "value": "true"
     },
@@ -156053,7 +156053,7 @@
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/SDKModules\/SDKModuleChangePin\/Change PIN\/SetUpNewPIN\/View\/SetUpNewPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1015,
+      "offset": 1088,
       "length": 4,
       "value": "true"
     },
@@ -160337,14 +160337,14 @@
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/SDKModules\/SDKOnboardingModule\/Onboarding\/ReEnterPin\/View\/ReEnterPinViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1050,
+      "offset": 1122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/umar.ainuddin\/Desktop\/SDK\/eMoney\/eMoneySDK\/SDKModules\/SDKOnboardingModule\/Onboarding\/ReEnterPin\/View\/ReEnterPinViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1081,
+      "offset": 1153,
       "length": 4,
       "value": "true"
     },
